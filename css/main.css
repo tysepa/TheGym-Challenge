@@ -224,7 +224,64 @@ section {
   }
 
 
-
+  .project {
+    color: #fff;
+   
+  }
+  .project .max-width p {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Roboto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .project .project-content {
+    display: block;
+    flex-wrap: wrap;
+    font-weight: 500;
+    justify-content: space-between;
+  }
+  .project .project-content .part {
+    width: 480px;
+    justify-content: center;
+    margin-left: .5em;
+    margin-bottom: 2em;
+    background: #222;
+    border: 1px solid #127960;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .project .project-content .part img {
+    width: 480px;
+    height: 460px;
+    padding-top: 15px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+  }
+  /* .project .project-content .part:hover {
+    background: #050505;
+  } */
+  .project .project-content .part .box {
+    transition: all 0.3s ease;
+  }
+  .project .project-content .part:hover .box {
+    transform: scale(1.05);
+  }
+  .project .text-2 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 20px 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  .project .text-2 span {
+    color: #127960;
+    font-size: 18px;
+    font-weight: 600;
+  }
 
 
 
