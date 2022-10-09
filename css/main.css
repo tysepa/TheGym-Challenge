@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background: black; */
     
 }
 
@@ -12,7 +13,7 @@ body{
 }
 .container .navbar .logo{
     width: 5em;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 20px;
    
 }
@@ -60,4 +61,44 @@ body{
 .navbar nav .second-ul li a{
     float: right;
     margin: .5em;
+}
+
+.header{
+    width: 100%;
+    height: 90vh;
+    margin-top: 35px;
+}
+
+.header .home{
+    width: 100%;
+    height: auto;
+}
+.header .home img{
+    width: 100%;
+    height: auto;
+   
+}
+
+.header .home .more-Info{
+    margin-top: -20em;
+    margin-left: 1.3em;
+    color: rgb(239, 234, 234);
+}
+
+.header .home .more-Info .arrow1{
+    width: 15px;
+    margin-left: .5em;
+   
+}
+.header .home .more-Info .arrow2{
+    width: 15px;
+    margin-left: 12em;
+}
+.header .home .more-Info .arrow3{
+    width: 15px;
+    margin-left: 14.5em;
+}
+.header .home .more-Info .arrow4{
+    width: 15px;
+    margin-left: 16.8em;
 }
