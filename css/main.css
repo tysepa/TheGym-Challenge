@@ -137,3 +137,126 @@ body{
     font-style: normal;
     text-transform: uppercase;
 }
+section {
+    padding: 0;
+  }
+  .about {
+    font-family: "Poppins", sans-serif;
+  }
+  /* about */
+  .about .tittle {
+    color: #444444;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    float: left;
+    margin-top: -5em;
+    margin-left: .3em;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .about .tittle::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80px;
+    height: 5px;
+    margin-left: -.2em;
+    background:#127960;
+    transform: translateX(-50%);
+  }
+  .about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .about .about-content .left {
+    width: 100%;
+  }
+  .about .about-content img {
+    height: 300px;
+    width: 480px;
+    margin-left: .5em;
+    margin-top: -7em;
+    object-fit: cover;
+    
+  }
+  .about .about-content .left h3{
+      font-size: 16px;
+      font-weight: 400;
+      margin: .5em;
+  }
+  .about .about-content .left p{
+      font-size: 12px;
+      margin: .5em;
+      font-weight: 100;
+  }
+ 
+  .about .about-content .left .learmore {
+    color:black;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    float: left;
+    margin-top: 15px;
+    margin-left: .3em;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .about .about-content .left .learmore::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 490px;
+    height: 5px;
+    margin-left: 18em;
+    background:#127960;
+    transform: translateX(-50%);
+  }
+
+
+
+
+
+
+
+
+
+
+  /* .about .about-content .right {
+    width: 55%;
+  }
+  .about .about-content .right .text {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .about .about-content .right p {
+    color: #fff;
+    justify-content: space-between;
+  }
+  .about .about-content .right a {
+    display: inline-block;
+    color: white;
+    background: #127960;
+    border: 2px solid #127960;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    transition: all 1s ease;
+  }
+  .about .about-content .right a:hover {
+    color: #127960;
+    background: #fff;
+  } */
