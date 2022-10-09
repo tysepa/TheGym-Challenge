@@ -176,6 +176,7 @@ section {
   }
   .about .about-content .left {
     width: 100%;
+    margin-bottom: 10em;
   }
   .about .about-content img {
     height: 300px;
@@ -231,32 +232,4 @@ section {
 
 
 
-  /* .about .about-content .right {
-    width: 55%;
-  }
-  .about .about-content .right .text {
-    color: #fff;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 10px;
-  }
-  .about .about-content .right p {
-    color: #fff;
-    justify-content: space-between;
-  }
-  .about .about-content .right a {
-    display: inline-block;
-    color: white;
-    background: #127960;
-    border: 2px solid #127960;
-    border-radius: 20px;
-    padding: 10px 30px;
-    font-size: 14px;
-    font-weight: 500;
-    margin-top: 20px;
-    transition: all 1s ease;
-  }
-  .about .about-content .right a:hover {
-    color: #127960;
-    background: #fff;
-  } */
+ 
