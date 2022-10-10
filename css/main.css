@@ -282,6 +282,20 @@ section {
     font-size: 18px;
     font-weight: 600;
   }
+  @media only  screen and  (min-width: 1440px){
+
+    .about {
+        margin-top: 35em;
+    }
+    .about .about-content{
+        display: grid;
+        grid-template-columns: repeat(4, 15% );
+        margin-right: 3em;
+    }
+
+  }
+      
+
 
 
 
